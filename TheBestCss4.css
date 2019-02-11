@@ -1,0 +1,92 @@
+html, body {height: 100%;width: 100%;}
+body { background-image: linear-gradient(to bottom right, white, green);  background-size: cover; background-repeat: no-repeat; margin: 0;}
+h1,h2,h3 {font-family: Gabriola, Calibri, Comic Sans, sans-serif; font-size: 32pt}   /* use 1st available font */
+th {background-color:#04AF4F;}     /* colors can be specified in hex */
+td {background-color:#04AF4F;}     /* colors can be specified in hex */
+a:link    {color:white}	     /* an unvisited link */
+a:visited {color:white}	     /* a link that has been visited */
+a:active  {color:red}		     /* a link now being visited */
+a:hover   {color:red}		     /* when the mouse hovers over it */
+button:hover {color: red}
+.table1{
+	font-family: "Calibri";	
+	font-size: 20pt;
+	margin-left: 10pt;
+	margin-right: 250pt;
+	margin-top: -10pt;
+	height: 200px;
+	border-style: solid;
+	border: solid green 10px;
+	border-collapse: collapse;
+	color: white;
+	text-align: center;
+}
+
+
+h1{
+	color:green;
+	text-align:left;
+	border: solid green 0px;
+	margin-left: 20px;
+}
+
+h2{
+	color:white;
+	font-family: "Calibri";
+	text-align: center;
+	margin-top: 70px;
+}
+
+.circ{
+	color:white;
+	font-size: 20pt;
+	font-family: "Calibri";
+	height: 200px;
+	width: 200px;
+	background-color:#04AF4F;
+	border-radius: 50%;
+	display: inline-block;
+	float: right;
+	float: top;
+	margin-right: 50pt;
+	margin-top: -150pt;
+	border: solid green 5px;
+}
+
+.table2{
+	font-family: "Calibri";
+	font-size: 20pt;
+	margin-top: 100pt;
+	margin-left: 10pt;
+	margin-right: 250pt;
+	table-layout: fixed;
+	height: 400px;
+	width: 50%;
+	border-style: solid;
+	border: solid green 10px;
+	border-collapse: collapse;
+	color: white;
+	text-align: center;
+}
+
+.error{
+	color:red;
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;	
+	font-size: 20pt;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+input[type=text], select {
+  width: 40%;
+  font-size: 15pt;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 3px #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
